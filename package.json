@@ -1,0 +1,22 @@
+{
+  "name": "@bllyanos/utils",
+  "version": "1.0.4",
+  "repository": "https://github.com/bllyanos/utils.git",
+  "description": "my base utilities",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [],
+  "author": "bllyanos",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
